@@ -12,7 +12,14 @@ export default function Header({ active, loading, onRefresh, onMenuToggle, showM
           <span />
         </button>
       )}
-      <h2>{title}</h2>
+              <div className={styles.brand}>
+                <div className={styles.logo} aria-hidden="true">
+                  <span className={styles.petalRing} />
+                  <span className={styles.center} />
+                </div>
+                <h1>Aifer Onam</h1>
+                {/* <button className={styles.close} onClick={onClose} aria-label="Close menu">×</button> */}
+              </div>
       <button onClick={onRefresh} className={styles.refresh} disabled={loading}>
         {loading ? 'Syncing...' : 'Refresh'}
       </button>

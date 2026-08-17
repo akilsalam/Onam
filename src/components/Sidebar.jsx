@@ -16,11 +16,11 @@ export default function Sidebar({ active, onSelect, menuOpen, onClose }) {
       {menuOpen && <div className={styles.backdrop} onClick={onClose} />}
       <aside className={`${styles.sidebar} ${menuOpen ? styles.open : ''}`}>
         <div className={styles.brand}>
-          <div className={styles.logo} aria-hidden="true">
+          {/* <div className={styles.logo} aria-hidden="true">
             <span className={styles.petalRing} />
             <span className={styles.center} />
-          </div>
-          <h1>Aifer Onam</h1>
+          </div> */}
+          <h1>Admin Panel</h1>
           <button className={styles.close} onClick={onClose} aria-label="Close menu">×</button>
         </div>
         <nav className={styles.nav}>
