@@ -1,0 +1,8 @@
+{
+  "short_name": "Onam",
+  "name": "Onam Festival Dashboard",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#d35400",
+  "background_color": "#ffffff"
+}
